@@ -1,0 +1,18 @@
+{
+  "name": "job-platform",
+  "version": "0.0.1",
+  "private": true,
+  "description": "30-day backend curriculum — real-time job processing system",
+  "scripts": {
+    "day1:tcp": "node week1/day1/raw-tcp.js",
+    "day1:express": "node week1/day1/express-server.js",
+    "day2": "node week1/day2/server.js",
+    "day3:blocking": "node week1/day3/blocking-server.js",
+    "day3:yielding": "node week1/day3/yielding-server.js",
+    "day3:worker": "node week1/day3/worker-server.js",
+    "day3:probe": "node week1/day3/probe.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
